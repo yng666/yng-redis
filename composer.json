@@ -1,0 +1,27 @@
+{
+    "name": "yng/redis",
+    "description": "A Redis package which supports read/write separation!",
+    "authors": [
+        {
+            "name": "yng"
+        }
+    ],
+    "type": "library",
+    "license": "Apache-2.0",
+    "homepage": "https://www.chinaqe.cn",
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yng\\Redis\\": "src/"
+        }
+    },
+    "extra": {
+        "yng": {
+            "config": {
+                "redis": "publish/redis.php"
+            }
+        }
+    }
+}
